@@ -1,0 +1,26 @@
+.loader_container {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin: 20rem auto;
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #e4e3e3;
+  border-bottom-color: #03ba7c;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
